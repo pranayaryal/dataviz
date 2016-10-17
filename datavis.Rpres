@@ -1,0 +1,63 @@
+Data Visualization - Best Practices
+========================================================
+author: Pranay Aryal
+autosize: true
+transition: none
+transition-speed: slow
+font-family: 'Helvetica'
+width: 1440
+height: 900
+
+
+The iris dataset
+======================
+title:false
+```{r echo=F, eval=T}
+library(tidyr)
+iris %>% head(20)
+```
+<small>The Iris Dataset (first 20 rows)</small>
+
+John Snow example
+=========================================================
+title:false
+
+![alt text](johnsnow.png)
+
+<small>Data Visualization by John Snow</small>
+<small>http://www.smalldatajournalism.com/class/fall2013/notes-1021/</small>
+
+Definition
+========================================================
+  - Data visualization is story-telling.
+  - It is a tool and not an end.
+  - Used to drive action
+
+
+Boxplots
+===================================================
+
+http://pranayaryal.github.io/boxplot
+
+http://www.smalldatajournalism.com/images/class/snow-map.png
+
+
+Ranking Visual Encodings
+=======================================================
+left: 70%
+1. Position 
+http://pranayaryal.github.io/splom
+
+
+2. Length
+http://pranayaryal.github.io/d3
+
+3. Slope
+4. Angle (http://pranayaryal.github.io/piechart)
+compare http://pranayaryal.github.io/pietobar
+5. Area
+
+***
+
+6. Volume - 3D data visualizations do not have any extra advantage
+7. Color-hue saturation density (http://bl.ocks.org/mbostock/raw/4060606/) http://pranayaryal.github.io/stackedbar
